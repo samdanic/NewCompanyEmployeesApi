@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CompanyEmployees</name>
+    </assembly>
+    <members>
+        <member name="T:CompanyEmployees.Migrations.DatabaseCreation">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.DatabaseCreation.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.DatabaseCreation.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.DatabaseCreation.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CompanyEmployees.Migrations.IntialData">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.IntialData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.IntialData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.IntialData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CompanyEmployees.Migrations.CreatingIdentityTables">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.CreatingIdentityTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.CreatingIdentityTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.CreatingIdentityTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CompanyEmployees.Migrations.AddedRolesToDb">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.AddedRolesToDb.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.AddedRolesToDb.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.AddedRolesToDb.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CompanyEmployees.Migrations.AdditionalUserFiledsForRefreshToken">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.AdditionalUserFiledsForRefreshToken.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.AdditionalUserFiledsForRefreshToken.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.AdditionalUserFiledsForRefreshToken.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:CompanyEmployees.Migrations.AddPhotos">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.AddPhotos.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.AddPhotos.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CompanyEmployees.Migrations.AddPhotos.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

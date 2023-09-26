@@ -1,0 +1,87 @@
+2023-01-17 07:39:28.3712 ERROR Something went wrong:No property or field 'Nameascending' exists in type 'Employee' (at index 0)
+2023-01-17 07:40:10.1081 ERROR Something went wrong:No property or field 'Nameascending' exists in type 'Employee' (at index 0)
+2023-01-17 08:21:46.1367 ERROR Something went wrong:No property or field 'Nameascending' exists in type 'Employee' (at index 0)
+2023-01-17 08:24:15.8330 ERROR Something went wrong:No property or field 'Nameascending' exists in type 'Employee' (at index 0)
+2023-01-17 13:28:18.6176 ERROR Something went wrong:System.NotImplementedException: The method or operation is not implemented.
+   at Entities.Models.Entity.TryAdd(String name, Object objectPropertyValue) in C:\Users\Samdan\source\repos\CompanyEmployees\Entities\Models\Entity.cs:line 71
+   at Service.DataShaping.DataShaper`1.FetchDataForEntity(T entity, IEnumerable`1 requiredProperties) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\DataShaping\DataShaper.cs:line 69
+   at Service.DataShaping.DataShaper`1.FetchData(IEnumerable`1 entities, IEnumerable`1 requiredProperties) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\DataShaping\DataShaper.cs:line 57
+   at Service.DataShaping.DataShaper`1.ShapeData(IEnumerable`1 entities, String fieldsString) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\DataShaping\DataShaper.cs:line 23
+   at Service.EmployeeService.GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, Boolean trackChanges) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\EmployeeService.cs:line 72
+   at CompanyEmployees.Presentation.Controllers.EmployeesController.GetEmployees(Guid companyId, EmployeeParameters employeeParameters, Guid id, Boolean trackChanges) in C:\Users\Samdan\source\repos\CompanyEmployees\CompanyEmployees.Presentation\Controllers\EmployeesController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 13:28:28.9463 ERROR Something went wrong:System.NotImplementedException: The method or operation is not implemented.
+   at Entities.Models.Entity.TryAdd(String name, Object objectPropertyValue) in C:\Users\Samdan\source\repos\CompanyEmployees\Entities\Models\Entity.cs:line 71
+   at Service.DataShaping.DataShaper`1.FetchDataForEntity(T entity, IEnumerable`1 requiredProperties) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\DataShaping\DataShaper.cs:line 69
+   at Service.DataShaping.DataShaper`1.FetchData(IEnumerable`1 entities, IEnumerable`1 requiredProperties) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\DataShaping\DataShaper.cs:line 57
+   at Service.DataShaping.DataShaper`1.ShapeData(IEnumerable`1 entities, String fieldsString) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\DataShaping\DataShaper.cs:line 23
+   at Service.EmployeeService.GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, Boolean trackChanges) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\EmployeeService.cs:line 72
+   at CompanyEmployees.Presentation.Controllers.EmployeesController.GetEmployees(Guid companyId, EmployeeParameters employeeParameters, Guid id, Boolean trackChanges) in C:\Users\Samdan\source\repos\CompanyEmployees\CompanyEmployees.Presentation\Controllers\EmployeesController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 13:28:40.1931 ERROR Something went wrong:System.NotImplementedException: The method or operation is not implemented.
+   at Entities.Models.Entity.TryAdd(String name, Object objectPropertyValue) in C:\Users\Samdan\source\repos\CompanyEmployees\Entities\Models\Entity.cs:line 71
+   at Service.DataShaping.DataShaper`1.FetchDataForEntity(T entity, IEnumerable`1 requiredProperties) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\DataShaping\DataShaper.cs:line 69
+   at Service.DataShaping.DataShaper`1.FetchData(IEnumerable`1 entities, IEnumerable`1 requiredProperties) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\DataShaping\DataShaper.cs:line 57
+   at Service.DataShaping.DataShaper`1.ShapeData(IEnumerable`1 entities, String fieldsString) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\DataShaping\DataShaper.cs:line 23
+   at Service.EmployeeService.GetEmployeesAsync(Guid companyId, EmployeeParameters employeeParameters, Boolean trackChanges) in C:\Users\Samdan\source\repos\CompanyEmployees\Service\EmployeeService.cs:line 72
+   at CompanyEmployees.Presentation.Controllers.EmployeesController.GetEmployees(Guid companyId, EmployeeParameters employeeParameters, Guid id, Boolean trackChanges) in C:\Users\Samdan\source\repos\CompanyEmployees\CompanyEmployees.Presentation\Controllers\EmployeesController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 17:40:24.5152 ERROR Something went wrong:System.InvalidOperationException: No service for type 'CompanyEmployees.Presentation.ActionFilters.ValidateMediaTypeAttribute' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-01-17 17:40:44.7869 ERROR Something went wrong:System.InvalidOperationException: No service for type 'CompanyEmployees.Presentation.ActionFilters.ValidateMediaTypeAttribute' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
